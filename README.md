@@ -14,3 +14,17 @@ Guided project for **Web Auth III** Module.
 - [ ] type `yarn server` or `npm run server` to start the API.
 
 Please follow along as the instructor adds support for `JSON Web Tokens (JWT)` to the API.
+
+## Responsibilities of the server and client
+
+### Server
+
+- generate the token
+- send the token to the client
+- read, decode, and verify the token
+- make the payload available for the api
+
+### Client
+
+- store the token
+- send the token on every request
